@@ -42,8 +42,8 @@ dep_contabil = ttk.Button(root, text = 'Departamento Contábil', width = 23, sty
 dep_contabil.grid(row = 2, column = 0, sticky = W, padx = 27, pady = 10)
 dep_fiscal = ttk.Button(root, text = 'Departamento Fiscal', width = 23, style = "Accentbutton", command = fiscal.jan_depFiscal)
 dep_fiscal.grid(row = 2, column = 2, sticky = W, pady = 10)
-#dep_pessoal = ttk.Button(root, text = 'Departamento Pessoal', width = 23, style = "Accentbutton", command = pessoal.jan_depPessoal)
-#dep_pessoal.grid(row = 3, column = 0, sticky = W, padx = 27, pady = 10)
+dep_pessoal = ttk.Button(root, text = 'Departamento Pessoal', width = 23, style = "Accentbutton", command = pessoal.jan_depPessoal)
+dep_pessoal.grid(row = 3, column = 0, sticky = W, padx = 27, pady = 10)
 sair = ttk.Button(root, text = 'Sair', width = 23, style = "Accentbutton", command = root.destroy)
 sair.grid(row = 3, column = 2, sticky = W)
 
