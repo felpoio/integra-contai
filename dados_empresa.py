@@ -36,6 +36,7 @@ def jan_dadoEmpresa():
     img = ImageTk.PhotoImage(Image.open(caminho_logo))
     panel2 = tk.Label(dadoEmpresa, image = img)
     panel2.grid(row = 0, columnspan = 3, column = 0, sticky = N, padx = 200, pady = 30)
+    panel2.image = img
     
     #Conteudo da janela
     cnpj = Label(dadoEmpresa, text = 'CNPJ: ' + dadoCnpj, font=("Helvetica", 12))

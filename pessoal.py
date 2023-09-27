@@ -37,6 +37,7 @@ def jan_depPessoal():
     img = ImageTk.PhotoImage(Image.open(caminho_logo))
     panel2 = tk.Label(depPessoal, image = img)
     panel2.grid(row = 0, columnspan = 3, column = 0, sticky = N, padx = 55, pady = 30)
+    panel2.image = img
     
     #criando botões
     wppPessoal = ttk.Button(depPessoal, text = 'Whatsapp Dep. Pessoal', width = 23, style = "Accentbutton", command = linkWppPessoal)

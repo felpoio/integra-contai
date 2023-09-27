@@ -32,6 +32,7 @@ style.configure("Accentbutton", foreground='white')
 img = ImageTk.PhotoImage(Image.open(caminho_logo))
 panel = tk.Label(root, image = img)
 panel.grid(row = 0, columnspan = 3, column = 0, sticky = N, padx = 55, pady = 30)
+panel.image = img
 
 #cria os botoes
 dados_empresa = ttk.Button(root, text = 'Dados da Empresa', width = 23, style = "Accentbutton", command = dados_empresa.jan_dadoEmpresa)

@@ -26,6 +26,7 @@ def jan_Lucro():
     img = ImageTk.PhotoImage(Image.open(caminho_logo))
     panel2 = tk.Label(lucroReal, image = img)
     panel2.grid(row = 0, columnspan = 3, column = 0, sticky = N, padx = 55, pady = 30)
+    panel2.image = img
     
     #cria as opções de sim ou nao da desoneração
     label=Label(lucroReal, text="Optante por desoneração?", font=("Calibri 15"))
@@ -311,6 +312,7 @@ def jan_Simples():
     img = ImageTk.PhotoImage(Image.open(caminho_logo))
     panel2 = tk.Label(simplesNacional, image = img)
     panel2.grid(row = 0, columnspan = 3, column = 0, sticky = N, padx = 55, pady = 30)
+    panel2.image = img
     
     #seta as variaveis globais para serem usadas pela funcao calculo()
     global entry
@@ -406,6 +408,7 @@ def jan_Calculadora():
     img = ImageTk.PhotoImage(Image.open(caminho_logo))
     panel2 = tk.Label(janCalculadora, image = img)
     panel2.grid(row = 0, columnspan = 3, column = 0, sticky = N, padx = 55, pady = 30)
+    panel2.image = img
     
     #criando botões
     simples = ttk.Button(janCalculadora, text = 'Simples Nacional', width = 23, style = "Accentbutton", command = jan_Simples)

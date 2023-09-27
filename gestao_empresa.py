@@ -41,6 +41,7 @@ def jan_gestaoEmpresa():
     img = ImageTk.PhotoImage(Image.open(caminho_logo))
     panel2 = tk.Label(gestaoEmpresa, image = img)
     panel2.grid(row = 0, columnspan = 3, column = 0, sticky = N, padx = 55, pady = 30)
+    panel2.image = img
     
     #criando botões
     contratoSocial = ttk.Button(gestaoEmpresa, text = 'Contrato Social', width = 23, style = "Accentbutton", command = linkContratoSocial)
