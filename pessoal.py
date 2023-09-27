@@ -43,5 +43,5 @@ def jan_depPessoal():
     wppPessoal.grid(row = 1, column = 0, sticky = W, padx = 27, pady = 10)
     areaCliente1 = ttk.Button(depPessoal, text = 'Área do Cliente', width = 23, style = "Accentbutton", command = linkAreaCliente)
     areaCliente1.grid(row = 1, column = 2, sticky = W, pady = 10)
-    calculadora = ttk.Button(depPessoal, text = 'Cálculo Funcionário', width = 23, style = "Accentbutton", command = calculadora.jan_Calculadora)
-    calculadora.grid(row = 2, column = 0, sticky = W, padx = 27, pady = 10)
+    calculadoraBtt = ttk.Button(depPessoal, text = 'Cálculo Funcionário', width = 23, style = "Accentbutton", command = calculadora.jan_Calculadora)
+    calculadoraBtt.grid(row = 2, column = 0, sticky = W, padx = 27, pady = 10)
