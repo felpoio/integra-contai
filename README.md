@@ -7,7 +7,7 @@ Software que busca facilitar a união entre a empresa e sua contabilidade, dispo
 <p align="center">
   <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;|&nbsp;
   <a href="#-projeto">Projeto</a>&nbsp;&nbsp;|&nbsp;
-  <a href="#-implementacao">Implementação</a>&nbsp;&nbsp;|&nbsp;
+  <a href="#-implementação">Implementação</a>&nbsp;&nbsp;|&nbsp;
   <a href="#changelog">ChangeLog</a>
 </p>
 
@@ -18,7 +18,7 @@ Software que busca facilitar a união entre a empresa e sua contabilidade, dispo
 <br>
 
 <p align="center">
-  <img alt="imagem do projeto" src="" width="100%">
+  <img alt="imagem do projeto" src="./assets/images/gif do projeto.gif" width="100%">
 </p>
 
 ## 🚀 Tecnologias
